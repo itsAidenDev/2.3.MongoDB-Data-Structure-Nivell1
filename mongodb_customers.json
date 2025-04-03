@@ -1,0 +1,48 @@
+{
+	"_id": {
+		"$oid": "67cb1c2e6ad977cfbca29e9453"
+	},
+	"address": {
+		"street": "Lepant",
+		"number": "239",
+		"city": "Barcelona",
+		"zip_code": "8013",
+		"country": "Spain"
+	},
+	"name": "José Fernández Torres",
+    "email": "jose_ft@gmail.com",
+	"phone": "673 42 39 40",
+	"registration_date": {
+		"$date": "2022-05-21T18:47:14.000Z"
+	},
+	"last_purchase": {
+		"date": "2024-10-18T16:15:53.000Z",
+		"glasses": {
+			"brand": "Dior",
+			"frame_type": "plastic",
+			"frame_color": "black",
+			"prescription": {
+				"left": "1.5",
+                "right": "2.0"
+			},
+			"glass_color": "transparent",
+			"price": "239.99"
+		},
+		"employee": {
+			"name": "Antonio López Serrano"
+		},
+		"supplier": {
+			"name": "Óptica Universitària",
+			"address": {
+				"street": "Passeig de Sant Joan",
+				"number": "168",
+				"city": "Barcelona",
+				"zip_code": 8037,
+				"country": "Spain"
+			},
+			"phone": "93 765 53 24",
+			"fax": "93 086 31 57",
+			"nif": "B77949947"
+		}
+	}
+}
