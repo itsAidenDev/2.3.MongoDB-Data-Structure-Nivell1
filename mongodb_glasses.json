@@ -1,0 +1,51 @@
+{
+	"_id": {
+		"$oid": "67cb1c2e6ad977cfbca29e9453"
+	},
+	"brand": "Emporio Armani",
+	"frame_type": "floating",
+	"frame_color": "dark blue",
+	"glass_color": "black",
+	"prescription": {
+		"left": 1.25,
+		"right": 1.75
+	},
+	"price": 139.99,
+	"supplier": {
+		"name": "Óptica Universitària",
+		"address": {
+			"street": "Passeig de Sant Joan",
+			"number": "168",
+			"city": "Barcelona",
+			"zip_code": 8037,
+			"country": "Spain"
+		},
+		"phone": "93 765 53 24",
+		"fax": "93 086 31 57",
+		"nif": "B77949947"
+	},
+	"sale_info": {
+		"sold": true,
+		"sale_date": {
+			"$date": "2023-10-01T10:30:00Z"
+		},
+		"employee": {
+			"name": "Gustavo Pérez García"
+		},
+		"customer": {
+			"name": "José Fernández Torres",
+            "address": {
+                "street": "Lepant",
+                "number": "239",
+                "city": "Barcelona",
+                "zip_code": "8013",
+                "country": "Spain"
+            },
+			"email": "jose_ft@gmail.com",
+            "phone": "673 42 39 40",
+			"registration_date": {
+                "$date": "2022-05-21T18:47:14.000Z"			
+            }
+		}
+	}
+}
